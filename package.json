@@ -1,0 +1,29 @@
+{
+  "name": "author_route_backend",
+  "version": "1.0.0",
+  "description": "backend for author route project",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZakSlinin/author_route_backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ZakSlinin/author_route_backend/issues"
+  },
+  "homepage": "https://github.com/ZakSlinin/author_route_backend#readme",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "pg": "^8.13.3",
+    "pg-hstore": "^2.3.4",
+    "pg-promise": "^11.10.2",
+    "sequelize": "^6.37.5"
+  }
+}
